@@ -1,3 +1,15 @@
+.container {
+  height: 135px;
+  position: relative;
+
+}
+.navbar-header {
+  position: absolute;
+  left: 0; top: 0;
+}
+#navbar-main {
+  float: right;
+}
 .thing-form {
     margin: 20px 0;
 }

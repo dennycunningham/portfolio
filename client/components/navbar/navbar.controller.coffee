@@ -2,10 +2,16 @@
 
 angular.module 'portfolioApp'
 .controller 'NavbarCtrl', ($scope, $location, Auth) ->
-  $scope.menu = [
-    title: 'Home'
+  $scope.menu = [{
+    title: 'Posts'
     link: '/'
-  ]
+  },{
+    title: 'Portfolio'
+    link: '/portfolio'
+  },{
+    title: 'Resume'
+    link: '/resume'
+  }]
   $scope.isCollapsed = true
   $scope.isLoggedIn = Auth.isLoggedIn
   $scope.isAdmin = Auth.isAdmin
