@@ -25,3 +25,42 @@ $fa-font-path: "/bower_components/font-awesome/fonts";
 // injector
 @import 'main/main.scss';
 // endinjector
+
+html, body {
+  height: 100%;
+}
+
+* {
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+  white-space: normal;
+}
+
+body {
+  background-size: cover;
+  color: #999;
+  font: 13px/1.231 Helvetica, Arial, sans-serif;
+  *font-size:small;
+  *font:x-small;
+  line-height: 1em;
+}
+p {
+  font-size: 14px;
+  line-height: 1.5em;
+  letter-spacing: .6px;
+}
+a {
+  color: #999;
+  &:hover {
+    color: #ccc;
+  }
+}
+
+header {
+  width: 1024px;
+  margin: 20px auto;
+  img {
+
+  }
+}
